@@ -16,6 +16,7 @@
 		AFB7C5D920357D4900A56940 /* STDTabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB7C5D720357D4900A56940 /* STDTabbar.xib */; };
 		AFB7C5DB2035805A00A56940 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7C5DA2035805A00A56940 /* CustomTabBarItem.swift */; };
 		AFB7C5DD2035853B00A56940 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7C5DC2035853B00A56940 /* ViewController1.swift */; };
+		AFB7C5DF2035AB9F00A56940 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB7C5DE2035AB9F00A56940 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AFB7C5D720357D4900A56940 /* STDTabbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STDTabbar.xib; sourceTree = "<group>"; };
 		AFB7C5DA2035805A00A56940 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
 		AFB7C5DC2035853B00A56940 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		AFB7C5DE2035AB9F00A56940 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				AFB7C5C420357CA600A56940 /* AppDelegate.swift */,
 				AFB7C5C620357CA600A56940 /* ViewController.swift */,
+				AFB7C5DE2035AB9F00A56940 /* ViewController.xib */,
 				AFB7C5C820357CA600A56940 /* Main.storyboard */,
 				AFB7C5CB20357CA600A56940 /* Assets.xcassets */,
 				AFB7C5CD20357CA600A56940 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB7C5DF2035AB9F00A56940 /* ViewController.xib in Resources */,
 				AFB7C5CF20357CA600A56940 /* LaunchScreen.storyboard in Resources */,
 				AFB7C5D920357D4900A56940 /* STDTabbar.xib in Resources */,
 				AFB7C5CC20357CA600A56940 /* Assets.xcassets in Resources */,

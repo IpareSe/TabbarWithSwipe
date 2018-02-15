@@ -17,14 +17,25 @@ protocol CustomTabBarDelegate {
 }
 
 class STDTabbar: UITabBarController, CustomTabBarDataSource, CustomTabBarDelegate {
-
+    @IBOutlet weak var tabCust: UITabBar!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tabOne = ViewController(nibName: "ViewController", bundle: nil)
+        let tabOneBarItem = UITabBarItem(title: "Tab 1", image: #imageLiteral(resourceName: "1"), selectedImage: #imageLiteral(resourceName: "2"))
+        tabOne.tabBarItem = tabOneBarItem
         
+        
+        // Create Tab two
+        let tabTwo = ViewController1()
+        let tabTwoBarItem2 = UITabBarItem(title: "Tab 2", image:#imageLiteral(resourceName: "2"), selectedImage: #imageLiteral(resourceName: "3"))
+        
+        tabTwo.tabBarItem = tabTwoBarItem2
+        
+        
+        self.viewControllers = [tabOne, tabTwo]
         self.tabBar.isHidden = true
-        
         let customTabBar = CustomTabBar(frame: self.tabBar.frame, SuperV:self)
         customTabBar.datasource = self
         customTabBar.delegate = self
@@ -38,7 +49,7 @@ class STDTabbar: UITabBarController, CustomTabBarDataSource, CustomTabBarDelegat
     // MARK: - CustomTabBarDataSource
     
     func tabBarItemsInCustomTabBar(tabBarView: CustomTabBar) -> [UITabBarItem] {
-        return tabBar.items!
+        return self.tabBar.items!
     }
     
     // MARK: - CustomTabBarDelegate
