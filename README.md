@@ -11,3 +11,6 @@ You can use custom colors.
 
 - it offers Sliderview.
 - Swipe between viewcontrollers.
+- Support for XIB installed.
+
+User Previous commit for Storyboard support
