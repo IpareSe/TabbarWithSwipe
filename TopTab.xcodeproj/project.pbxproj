@@ -26,18 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		660E495324528AC900D54878 /* ArrivedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrivedVC.m; sourceTree = "<group>"; };
-		660E495424528AC900D54878 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		660E495524528AC900D54878 /* ConfirmRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmRequestVC.m; sourceTree = "<group>"; };
-		660E495624528AC900D54878 /* ArrivingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrivingVC.m; sourceTree = "<group>"; };
-		660E495724528AC900D54878 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		660E495824528AC900D54878 /* CancelRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelRequestVC.m; sourceTree = "<group>"; };
-		660E495924528AC900D54878 /* ArrivedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrivedVC.h; sourceTree = "<group>"; };
-		660E495A24528AC900D54878 /* ConfirmRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmRequestVC.h; sourceTree = "<group>"; };
-		660E495B24528AC900D54878 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		660E495C24528AC900D54878 /* ArrivingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrivingVC.h; sourceTree = "<group>"; };
-		660E495D24528AC900D54878 /* CancelRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelRequestVC.h; sourceTree = "<group>"; };
-		660E495E24528AC900D54878 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		660E495324528AC900D54878 /* ArrivedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrivedVC.m; path = navigation/ArrivedVC.m; sourceTree = "<group>"; };
+		660E495424528AC900D54878 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = navigation/AppDelegate.h; sourceTree = "<group>"; };
+		660E495524528AC900D54878 /* ConfirmRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmRequestVC.m; path = navigation/ConfirmRequestVC.m; sourceTree = "<group>"; };
+		660E495624528AC900D54878 /* ArrivingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrivingVC.m; path = navigation/ArrivingVC.m; sourceTree = "<group>"; };
+		660E495724528AC900D54878 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = navigation/HomeVC.m; sourceTree = "<group>"; };
+		660E495824528AC900D54878 /* CancelRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CancelRequestVC.m; path = navigation/CancelRequestVC.m; sourceTree = "<group>"; };
+		660E495924528AC900D54878 /* ArrivedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrivedVC.h; path = navigation/ArrivedVC.h; sourceTree = "<group>"; };
+		660E495A24528AC900D54878 /* ConfirmRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmRequestVC.h; path = navigation/ConfirmRequestVC.h; sourceTree = "<group>"; };
+		660E495B24528AC900D54878 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = navigation/AppDelegate.m; sourceTree = "<group>"; };
+		660E495C24528AC900D54878 /* ArrivingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrivingVC.h; path = navigation/ArrivingVC.h; sourceTree = "<group>"; };
+		660E495D24528AC900D54878 /* CancelRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CancelRequestVC.h; path = navigation/CancelRequestVC.h; sourceTree = "<group>"; };
+		660E495E24528AC900D54878 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = navigation/HomeVC.h; sourceTree = "<group>"; };
 		AFB7C5C120357CA600A56940 /* TopTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB7C5C420357CA600A56940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB7C5C620357CA600A56940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,25 +63,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		660E495224528AC900D54878 /* navigation */ = {
-			isa = PBXGroup;
-			children = (
-				660E495324528AC900D54878 /* ArrivedVC.m */,
-				660E495424528AC900D54878 /* AppDelegate.h */,
-				660E495524528AC900D54878 /* ConfirmRequestVC.m */,
-				660E495624528AC900D54878 /* ArrivingVC.m */,
-				660E495724528AC900D54878 /* HomeVC.m */,
-				660E495824528AC900D54878 /* CancelRequestVC.m */,
-				660E495924528AC900D54878 /* ArrivedVC.h */,
-				660E495A24528AC900D54878 /* ConfirmRequestVC.h */,
-				660E495B24528AC900D54878 /* AppDelegate.m */,
-				660E495C24528AC900D54878 /* ArrivingVC.h */,
-				660E495D24528AC900D54878 /* CancelRequestVC.h */,
-				660E495E24528AC900D54878 /* HomeVC.h */,
-			);
-			path = navigation;
-			sourceTree = "<group>";
-		};
 		AFB7C5B820357CA600A56940 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +82,18 @@
 		AFB7C5C320357CA600A56940 /* TopTab */ = {
 			isa = PBXGroup;
 			children = (
-				660E495224528AC900D54878 /* navigation */,
+				660E495324528AC900D54878 /* ArrivedVC.m */,
+				660E495424528AC900D54878 /* AppDelegate.h */,
+				660E495524528AC900D54878 /* ConfirmRequestVC.m */,
+				660E495624528AC900D54878 /* ArrivingVC.m */,
+				660E495724528AC900D54878 /* HomeVC.m */,
+				660E495824528AC900D54878 /* CancelRequestVC.m */,
+				660E495924528AC900D54878 /* ArrivedVC.h */,
+				660E495A24528AC900D54878 /* ConfirmRequestVC.h */,
+				660E495B24528AC900D54878 /* AppDelegate.m */,
+				660E495C24528AC900D54878 /* ArrivingVC.h */,
+				660E495D24528AC900D54878 /* CancelRequestVC.h */,
+				660E495E24528AC900D54878 /* HomeVC.h */,
 				AFB7C5C420357CA600A56940 /* AppDelegate.swift */,
 				AFB7C5C620357CA600A56940 /* ViewController.swift */,
 				AFB7C5DE2035AB9F00A56940 /* ViewController.xib */,
