@@ -13,6 +13,13 @@
 		660E496224528AC900D54878 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 660E495724528AC900D54878 /* HomeVC.m */; };
 		660E496324528AC900D54878 /* CancelRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 660E495824528AC900D54878 /* CancelRequestVC.m */; };
 		660E496424528AC900D54878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660E495B24528AC900D54878 /* AppDelegate.m */; };
+		6673AC562457E39A005E1BAE /* CancelRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC472457E399005E1BAE /* CancelRequestVC.m */; };
+		6673AC572457E39A005E1BAE /* FareSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC482457E399005E1BAE /* FareSummaryVC.m */; };
+		6673AC582457E39A005E1BAE /* ConfirmRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC4E2457E39A005E1BAE /* ConfirmRequestVC.m */; };
+		6673AC592457E39A005E1BAE /* EndTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC502457E39A005E1BAE /* EndTripVC.m */; };
+		6673AC5A2457E39A005E1BAE /* LRouteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC532457E39A005E1BAE /* LRouteController.m */; };
+		6673AC5B2457E39A005E1BAE /* ManualFareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC542457E39A005E1BAE /* ManualFareVC.m */; };
+		6673AC5C2457E39A005E1BAE /* RejectRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673AC552457E39A005E1BAE /* RejectRequestVC.m */; };
 		AFB7C5C520357CA600A56940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7C5C420357CA600A56940 /* AppDelegate.swift */; };
 		AFB7C5C720357CA600A56940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB7C5C620357CA600A56940 /* ViewController.swift */; };
 		AFB7C5CA20357CA600A56940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB7C5C820357CA600A56940 /* Main.storyboard */; };
@@ -38,6 +45,20 @@
 		660E495C24528AC900D54878 /* ArrivingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrivingVC.h; path = navigation/ArrivingVC.h; sourceTree = "<group>"; };
 		660E495D24528AC900D54878 /* CancelRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CancelRequestVC.h; path = navigation/CancelRequestVC.h; sourceTree = "<group>"; };
 		660E495E24528AC900D54878 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = navigation/HomeVC.h; sourceTree = "<group>"; };
+		6673AC472457E399005E1BAE /* CancelRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelRequestVC.m; sourceTree = "<group>"; };
+		6673AC482457E399005E1BAE /* FareSummaryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FareSummaryVC.m; sourceTree = "<group>"; };
+		6673AC492457E399005E1BAE /* ConfirmRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmRequestVC.h; sourceTree = "<group>"; };
+		6673AC4A2457E399005E1BAE /* CancelRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelRequestVC.h; sourceTree = "<group>"; };
+		6673AC4B2457E39A005E1BAE /* FareSummaryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FareSummaryVC.h; sourceTree = "<group>"; };
+		6673AC4C2457E39A005E1BAE /* ManualFareVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualFareVC.h; sourceTree = "<group>"; };
+		6673AC4D2457E39A005E1BAE /* RejectRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RejectRequestVC.h; sourceTree = "<group>"; };
+		6673AC4E2457E39A005E1BAE /* ConfirmRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmRequestVC.m; sourceTree = "<group>"; };
+		6673AC4F2457E39A005E1BAE /* EndTripVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndTripVC.h; sourceTree = "<group>"; };
+		6673AC502457E39A005E1BAE /* EndTripVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndTripVC.m; sourceTree = "<group>"; };
+		6673AC522457E39A005E1BAE /* LRouteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRouteController.h; sourceTree = "<group>"; };
+		6673AC532457E39A005E1BAE /* LRouteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRouteController.m; sourceTree = "<group>"; };
+		6673AC542457E39A005E1BAE /* ManualFareVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualFareVC.m; sourceTree = "<group>"; };
+		6673AC552457E39A005E1BAE /* RejectRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RejectRequestVC.m; sourceTree = "<group>"; };
 		AFB7C5C120357CA600A56940 /* TopTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB7C5C420357CA600A56940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFB7C5C620357CA600A56940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6673AC512457E39A005E1BAE /* LRouteController */ = {
+			isa = PBXGroup;
+			children = (
+				6673AC522457E39A005E1BAE /* LRouteController.h */,
+				6673AC532457E39A005E1BAE /* LRouteController.m */,
+			);
+			path = LRouteController;
+			sourceTree = "<group>";
+		};
 		AFB7C5B820357CA600A56940 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,19 @@
 			isa = PBXGroup;
 			children = (
 				660E495324528AC900D54878 /* ArrivedVC.m */,
+				6673AC4A2457E399005E1BAE /* CancelRequestVC.h */,
+				6673AC472457E399005E1BAE /* CancelRequestVC.m */,
+				6673AC492457E399005E1BAE /* ConfirmRequestVC.h */,
+				6673AC4E2457E39A005E1BAE /* ConfirmRequestVC.m */,
+				6673AC4F2457E39A005E1BAE /* EndTripVC.h */,
+				6673AC502457E39A005E1BAE /* EndTripVC.m */,
+				6673AC4B2457E39A005E1BAE /* FareSummaryVC.h */,
+				6673AC482457E399005E1BAE /* FareSummaryVC.m */,
+				6673AC512457E39A005E1BAE /* LRouteController */,
+				6673AC4C2457E39A005E1BAE /* ManualFareVC.h */,
+				6673AC542457E39A005E1BAE /* ManualFareVC.m */,
+				6673AC4D2457E39A005E1BAE /* RejectRequestVC.h */,
+				6673AC552457E39A005E1BAE /* RejectRequestVC.m */,
 				660E495424528AC900D54878 /* AppDelegate.h */,
 				660E495524528AC900D54878 /* ConfirmRequestVC.m */,
 				660E495624528AC900D54878 /* ArrivingVC.m */,
@@ -183,14 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6673AC5B2457E39A005E1BAE /* ManualFareVC.m in Sources */,
+				6673AC5C2457E39A005E1BAE /* RejectRequestVC.m in Sources */,
 				660E496424528AC900D54878 /* AppDelegate.m in Sources */,
 				660E495F24528AC900D54878 /* ArrivedVC.m in Sources */,
 				AFB7C5C720357CA600A56940 /* ViewController.swift in Sources */,
 				660E496124528AC900D54878 /* ArrivingVC.m in Sources */,
+				6673AC562457E39A005E1BAE /* CancelRequestVC.m in Sources */,
+				6673AC592457E39A005E1BAE /* EndTripVC.m in Sources */,
 				660E496224528AC900D54878 /* HomeVC.m in Sources */,
 				660E496324528AC900D54878 /* CancelRequestVC.m in Sources */,
 				660E496024528AC900D54878 /* ConfirmRequestVC.m in Sources */,
+				6673AC572457E39A005E1BAE /* FareSummaryVC.m in Sources */,
+				6673AC582457E39A005E1BAE /* ConfirmRequestVC.m in Sources */,
 				AFB7C5DD2035853B00A56940 /* ViewController1.swift in Sources */,
+				6673AC5A2457E39A005E1BAE /* LRouteController.m in Sources */,
 				AFB7C5D820357D4900A56940 /* STDTabbar.swift in Sources */,
 				AFB7C5C520357CA600A56940 /* AppDelegate.swift in Sources */,
 				AFB7C5DB2035805A00A56940 /* CustomTabBarItem.swift in Sources */,
